@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIMPLE CALCULATOR</title>
+        <style>
+            .output-box {
+                width: 300px;
+                height: 50px;
+                border: 3px solid black;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            .output-box.sum {
+                background-color: rgb(249, 249, 91);
+            }
+            .output-box.product {
+                background-color: rgb(141, 244, 141);
+            }
+            .output-box.difference {
+                background-color: rgb(180, 180, 229);
+            }
+            .output-box.quotient {
+                background-color: rgb(231, 168, 168);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Simple Calculator</h1>
+    <input type="number" id="num1" placeholder="Enter number 1" />
+    <input type="number" id="num2" placeholder="Enter number 2" />
+    <br>
+    <button onclick="calculate('sum')">Sum</button>
+    <button onclick="calculate('product')">Product</button>
+    <button onclick="calculate('difference')">Difference</button>
+    <button onclick="calculate('quotient')">Quotient</button>
+    <br>
+    <div id="output" class="output-box"></div>
+
+    <script>
+        function calculate(operation) {
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
+            var result;
+
+            if (operation === 'sum') {
+                result = num1 + num2;
+                document.getElementById('output').className = 'output-box sum';
+            } else if (operation === 'product') {
+                result = num1 * num2;
+                document.getElementById('output').className = 'output-box product';
+            } else if (operation === 'difference') {
+                result = num1 - num2;
+                document.getElementById('output').className = 'output-box difference';
+            } else if (operation === 'quotient') {
+                result = num1 / num2;
+                document.getElementById('output').className = 'output-box quotient';
+            }
+
+            document.getElementById('output').textContent = result;
+        }
+    </script>
+    </body>
+</html>
