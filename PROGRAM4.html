@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Functions</title>
+  <style>
+    .container {
+      width: 500px;
+      height: 150px;
+      margin: 0 auto;
+    }
+
+    .input-box {
+      background-color:rgb(42, 191, 194);
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 500px;
+      height: 150px;
+      font-size: xx-large;
+    }
+
+    .output-box {
+      background-color:rgb(226, 199, 78);
+      padding: 10px;
+      margin-bottom: 10px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Problem 1: Find Left-Most Vowel Position</h2>
+    <div class="input-box">
+      <label for="stringInput">Enter a string:</label><br>
+      <input type="text" id="stringInput"><br><br>
+      <button onclick="findLeftMostVowel()">Find Left-Most Vowel</button>
+    </div>
+    <div class="output-box">
+      <p id="vowelPosition"></p>
+    </div>
+
+    <h2>Problem 2: Reverse Digits of a Number</h2>
+    <div class="input-box">
+      <label for="numberInput">Enter a number:</label><br>
+      <input type="number" id="numberInput"><br><br>
+      <button onclick="reverseNumber()">Reverse Number</button>
+    </div>
+    <div class="output-box">
+      <p id="reversedNumber"></p>
+    </div>
+  </div>
+
+  <script>
+    function findLeftMostVowel() {
+      var inputString = document.getElementById("stringInput").value;
+      var vowels = "aeiouAEIOU";
+      var position = -1;
+
+      for (var i = 0; i < inputString.length; i++) {
+        if (vowels.includes(inputString[i])) {
+          position = i;
+          break;
+        }
+      }
+
+      document.getElementById("vowelPosition").innerHTML = "Left-Most Vowel Position: " + position;
+    }
+
+    function reverseNumber() {
+      var inputNumber = document.getElementById("numberInput").value;
+      var reversedNumber = parseInt(inputNumber.toString().split('').reverse().join(''));
+
+      document.getElementById("reversedNumber").innerHTML = "Reversed Number: " + reversedNumber;
+    }
+  </script>
+</body>
+</html>
