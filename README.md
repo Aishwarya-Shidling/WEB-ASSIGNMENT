@@ -1,1 +1,5 @@
 ![Screenshot (46)](https://github.com/Aishwarya-Shidling/WEB-ASSIGNMENT/assets/136302043/2ada4446-3195-4bb4-9d9e-bee0a9c7c8f0)
+![Screenshot (49)](https://github.com/Aishwarya-Shidling/WEB-ASSIGNMENT/assets/136302043/60b44bbd-1963-454c-a939-e93b9627684c)
+![Screenshot (41)](https://github.com/Aishwarya-Shidling/WEB-ASSIGNMENT/assets/136302043/9e7352f2-2556-4c61-b9b4-b61b3e6314e5)
+![Screenshot (40)](https://github.com/Aishwarya-Shidling/WEB-ASSIGNMENT/assets/136302043/a2508da1-9af0-48c7-91b5-028112b26dab)
+![Screenshot (50)](https://github.com/Aishwarya-Shidling/WEB-ASSIGNMENT/assets/136302043/08b005ac-7dc4-4c24-a20f-499d7511d0a2)
