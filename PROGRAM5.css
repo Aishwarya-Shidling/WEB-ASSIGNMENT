@@ -1,0 +1,43 @@
+USN {
+    display : block; 
+    color: rgb(4, 4, 221);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+NAME {
+    display : block; 
+    color: rgb(224, 134, 38);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+COLLEGE {
+    display : block; 
+    color: rgb(252, 20, 16);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+BRANCH {
+    display : block; 
+    color: rgb(9, 175, 64);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+YEAR {
+    display : block; 
+    color: rgb(142, 8, 152);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+EMAIL {
+    display : block; 
+    color: rgb(162, 4, 67);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
